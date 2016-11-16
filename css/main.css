@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Open Sans';
+}
 /*----------------------------------------------------------------------------HEADER*/
 header{
     background-image: url(../img/grupal.jpg);
