@@ -1,7 +1,3 @@
-body{
-    font-family: 'Open Sans';
-}
-
 
 /*----------------------------------------------------------------------------HEADER*/
 header{
@@ -15,6 +11,7 @@ header a{
 header .sumate{
     background-color: #ffcc3f;
     color: black;
+    font-family: 'Open Sans';
     padding: 10px 10px;
     border-radius: 4px;
     display: inline-block;
@@ -37,6 +34,7 @@ header ul li{
 header li a{
     color: black;
     font-weight: 20px;
+    font-family: 'Open Sans';
 }
 /*--------------------------------------------------------------------------------------------CONTENIDO*/
 
@@ -67,6 +65,7 @@ footer ul li{
     display: inline-block;
     color: white;
     margin-left: 0px;
+    font-family: 'Open Sans';
 }
 footer li:after{
     content: "|";
