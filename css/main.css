@@ -3,7 +3,7 @@ body{
 }
 
 
-/*-----------------------------------------------------HEADER*/
+/*----------------------------------------------------------------------------HEADER*/
 header{
     background-image: url(../img/grupal.jpg);
     background-size: 100%;
@@ -13,13 +13,14 @@ header a{
     text-decoration: none;
 }
 header .sumate{
-    background-color: #d9a71e;
+    background-color: #ffcc3f;
     color: black;
     padding: 10px 10px;
     border-radius: 4px;
     display: inline-block;
     margin-top: 90px;
     margin-left: 30px;
+    padding: 10px 25px 10px 25px;
 }
 header img{
     width: 450px;
@@ -35,8 +36,9 @@ header ul li{
 }
 header li a{
     color: black;
+    font-weight: 20px;
 }
-/*------------------------------------------------------------------------------CONTENIDO*/
+/*--------------------------------------------------------------------------------------------CONTENIDO*/
 
 .contenido{
     font-family: arial;
@@ -50,6 +52,26 @@ header li a{
     font-size: 20px;
     margin: 15px 0 20px 0;
 }
+/*---------------------------------------------------------------------------------------------------FOOTER*/
 
-
+footer{
+    background-color: #3d3e40;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+footer ul{
+    list-style: none;
+    color: white;
+}
+footer ul li{
+    display: inline-block;
+    color: white;
+    margin-left: 0px;
+}
+footer li:after{
+    content: "|";
+}
+footer li:last-child:after{
+    content: "";
+} 
 
